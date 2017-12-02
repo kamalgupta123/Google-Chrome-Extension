@@ -1,0 +1,13 @@
+{
+    "manifest_version":2,
+    "name":"Hello World",
+    "version":"1.0",
+    "description":"hello world",
+    "icons":{
+        "1":"icons1.png"
+    },
+    "browser_action":{
+        "default_icon":"icons1.png",//icon for extension
+        "default_popup":"popup.html"//default popup
+    }
+}
